@@ -1,0 +1,98 @@
+html{
+	scroll-behavior: smooth;
+
+}
+.navtop{
+	font-weight: bold;
+	word-spacing: 30px;
+	height: 70px;
+}
+.navcontent{
+	position: absolute;
+	right: 5rem;
+}
+.caro{
+	height: 500px;
+	width: 100%;
+	margin-bottom: 5rem;
+}
+.carouselcol{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.about{
+	width: 750px;
+}
+.aboutp{
+	margin-top: 3rem;
+	margin-left: 3rem;
+	font-family: verdana;
+	font-size: 20px;
+}
+.cont2{
+	margin-bottom: 5rem;
+}
+.serve{
+	height: 700px;
+	margin-left: 10rem;
+}
+p.service{
+	padding-left: 7rem;
+	font-family: verdana;
+	font-size: 40px;
+}
+.pic{
+	box-shadow: 7px 6px 70px 21px rgba(3,3,20,0.75);
+		}
+body{
+	background-image: url("background.jpg");
+	background-blend-mode: overlay;
+	background-color: rgb(14,14,14);
+	background-size: cover;
+	color: white;
+}
+.cnt{
+	background-image: url("contact.jpg");
+	background-blend-mode: overlay;
+	background-color: rgb(14,14,14);
+	background-size: cover;
+	color: rgb(139,139,144);
+	font-weight: bold;
+	font-size: 30px;
+	padding: 5rem 8rem;
+	margin-bottom: 10rem;
+	margin-top: 5rem;
+}
+.footer{
+	background-color: rgb(101,101,102);
+	color: rgb(205,204,208);
+	padding: 2rem 0rem;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
+
+@media (min-width: 576px) { 
+
+	.navtop{
+		height: 80%;
+		width: auto;
+	}
+	
+ }
